@@ -1,0 +1,91 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+html,body{
+height: 100%;
+width: 100%; 
+font-family: KNIGHT WARRIOR;  
+overflow: hidden;
+}
+.screen{   
+background-color:#0A1D56; 
+background: radial-gradient(#492E87,#0A1D56);
+height: 100%;
+width: 100%;  
+flex-direction: column;
+gap: 80px;
+display:flex;
+align-items: center;
+justify-content: center;
+font-family: KNIGHT WARRIOR;
+letter-spacing: 8px;
+font-size: 50px;
+color: #F2F597;
+}
+
+button{
+height: 65px;
+width: 150px;
+border-radius: 20px;
+color: #F2F597;
+font-size: 26px;
+background-color: #0A1D56;
+transition: 0.5s;
+font-family: KNIGHT WARRIOR;
+}
+button:active{
+scale:1;    
+}
+button:hover{
+color: #0A1D56;
+background-color: #F2F597;    
+}
+#bigbox{
+height:90%;
+width: 80%;
+display: flex;
+align-items: center;
+gap: 2%;
+/* background-color: rgba(0, 140, 255, 0.235); */
+position: relative; 
+padding-left: 150px;
+padding-bottom: -150%;
+}
+#bigbox h1{
+position: absolute;
+left: 13%;
+top: 2%;
+display: flex;
+align-items: center;
+font-size: 80px;  }
+.box{
+height: 40%;
+width: 20%;
+border:3px #F2F597 solid;
+padding: 10px,10px; 
+position: relative;
+transition: 1s;
+}
+.box h6{
+letter-spacing: 2px; 
+display: flex;
+align-items: center; 
+justify-content: center;  
+} 
+span img{   
+height: 90%;  
+width: 90%;
+position: absolute;
+bottom: 0%;
+}
+.box:hover{
+background-color: #f2f597cc;
+color: #0A1D56;
+}
+.playground{
+display: flex;
+gap: 70vw;
+align-items: center;
+}

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+Button{
+   position: absolute;
+   top: 40%;
+   left: 45%;
+   height:10%;
+   width: 10%;
+   background-color: rgb(88, 88, 233);
+   color: whitesmoke;
+    border-radius: 16px ;
+    border:  5px  white;
+    transition: all 1.5s;
+}
+
+Button:active
+{
+  transform:  scale(0.4);
+}
